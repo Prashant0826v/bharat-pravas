@@ -1,0 +1,47 @@
+[
+  {
+    "id": "western-ghats",
+    "name": "Western Ghats",
+    "slug": "western-ghats",
+    "tagline": "Trekking · Nature · Waterfalls",
+    "description": "Explore the majestic Sahyadri ranges with lush green valleys, hidden waterfalls, and ancient trails that wind through some of India's most biodiverse landscapes.",
+    "tripCount": 12,
+    "image": "/images/destinations/western-ghats.jpg"
+  },
+  {
+    "id": "coastal-maharashtra",
+    "name": "Coastal Maharashtra",
+    "slug": "coastal-maharashtra",
+    "tagline": "Beaches · Camping · Local Culture",
+    "description": "Discover pristine Konkan beaches, secret coves, and vibrant coastal villages where the Arabian Sea meets ancient fishing traditions.",
+    "tripCount": 8,
+    "image": "/images/destinations/coastal.jpg"
+  },
+  {
+    "id": "hill-stations",
+    "name": "Hill Stations",
+    "slug": "hill-stations",
+    "tagline": "Scenic · Relaxing · Weekend Escapes",
+    "description": "Retreat to misty hill stations nestled in the Western Ghats, where cool breezes, rolling meadows, and colonial charm create the perfect escape.",
+    "tripCount": 6,
+    "image": "/images/destinations/hill-stations.jpg"
+  },
+  {
+    "id": "heritage-forts",
+    "name": "Heritage & Forts",
+    "slug": "heritage-forts",
+    "tagline": "History · Culture · Fort Trails",
+    "description": "Walk the ramparts of Maratha strongholds perched on dramatic peaks, where every stone tells a story of courage, strategy, and empire.",
+    "tripCount": 10,
+    "image": "/images/destinations/forts.jpg"
+  },
+  {
+    "id": "waterfalls-monsoon",
+    "name": "Waterfalls & Monsoon",
+    "slug": "waterfalls-monsoon",
+    "tagline": "Seasonal Nature · Adventure · Photography",
+    "description": "Chase monsoon magic through thundering waterfalls, emerald valleys, and rain-washed trails that come alive only a few months each year.",
+    "tripCount": 7,
+    "image": "/images/destinations/waterfalls.jpg"
+  }
+]

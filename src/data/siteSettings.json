@@ -1,0 +1,22 @@
+{
+  "brandName": "BharatPravas",
+  "tagline": "Offbeat. Authentic. Yours.",
+  "whatsappNumber": "919876543210",
+  "whatsappMessage": "Hi BharatPravas! I'd like to know more about your trips.",
+  "email": "hello@bharatpravas.in",
+  "phone": "+91 98765 43210",
+  "supportHours": "Mon–Sat, 9 AM – 7 PM IST",
+  "address": "Pune, Maharashtra, India",
+  "social": {
+    "instagram": "https://instagram.com/bharatpravas",
+    "facebook": "https://facebook.com/bharatpravas",
+    "youtube": "https://youtube.com/@bharatpravas",
+    "twitter": "https://twitter.com/bharatpravas"
+  },
+  "stats": {
+    "yearsExperience": 3,
+    "happyTravellers": 500,
+    "curatedTrips": 45,
+    "repeatTravellers": 40
+  }
+}

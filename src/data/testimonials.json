@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "Priya Sharma",
+    "city": "Mumbai",
+    "rating": 5,
+    "tripName": "Rajmachi Fort Trek — Women Only",
+    "review": "As a solo woman traveller, I was nervous about my first trek. BharatPravas made it unforgettable — the group was amazing, the guides were incredibly supportive, and the views from Rajmachi at sunrise took my breath away.",
+    "verified": true
+  },
+  {
+    "id": "2",
+    "name": "Arjun Deshmukh",
+    "city": "Pune",
+    "rating": 5,
+    "tripName": "Harishchandragad Summit Trek",
+    "review": "The Konkan Kada sunrise is something you have to experience in person. BharatPravas planned every detail perfectly — from the night trek route to the camping setup. Will definitely book again.",
+    "verified": true
+  },
+  {
+    "id": "3",
+    "name": "Sneha Kulkarni",
+    "city": "Nagpur",
+    "rating": 5,
+    "tripName": "Tarkarli Beach Camping",
+    "review": "Three days of pure bliss. The hidden beach camp, the stargazing, the local Malvani food — everything felt authentic and personal. This isn't mass tourism, it's real travel.",
+    "verified": true
+  },
+  {
+    "id": "4",
+    "name": "Rohan Patil",
+    "city": "Nashik",
+    "rating": 4,
+    "tripName": "Lonavala Monsoon Trail",
+    "review": "The monsoon trek through Lonavala was magical. Waterfalls everywhere, lush green trails, and a small group that felt like friends by the end. Great value for a day trip.",
+    "verified": true
+  },
+  {
+    "id": "5",
+    "name": "Ananya Joshi",
+    "city": "Mumbai",
+    "rating": 5,
+    "tripName": "Mahabaleshwar Heritage Retreat",
+    "review": "I joined the women-only Mahabaleshwar trip and it exceeded every expectation. The heritage walks, strawberry farms, and sunset points were beautifully curated. Felt safe throughout.",
+    "verified": true
+  }
+]

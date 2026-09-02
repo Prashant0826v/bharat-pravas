@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "question": "How do I book a trip?",
+    "answer": "Browse our trips, select your preferred departure date, and click 'Book Now' or 'Enquire'. You can also reach us directly on WhatsApp for instant assistance. Once you submit your booking, our team will confirm availability and share payment details.",
+    "category": "booking"
+  },
+  {
+    "id": "2",
+    "question": "Are trips safe for solo travellers?",
+    "answer": "Absolutely. Our small-group format means you're never alone — you'll be with like-minded travellers and experienced guides. We share detailed trip information, emergency contacts, and safety protocols before every departure.",
+    "category": "safety"
+  },
+  {
+    "id": "3",
+    "question": "Are women-only trips led by women?",
+    "answer": "We prioritise having female trip leaders and support staff for our women-only departures. Each trip listing specifies the guide details so you know exactly who'll be leading your experience.",
+    "category": "women-only"
+  },
+  {
+    "id": "4",
+    "question": "What is included in the trip package?",
+    "answer": "Each trip page lists detailed inclusions and exclusions. Typically, packages include transport, meals, accommodation, guide fees, and permits. We believe in transparent pricing — no hidden costs.",
+    "category": "general"
+  },
+  {
+    "id": "5",
+    "question": "Do I need prior trekking experience?",
+    "answer": "Not for most trips. Each listing shows a difficulty rating — Easy, Moderate, or Challenging. Easy trips are perfect for beginners. For challenging treks, we recommend basic fitness preparation.",
+    "category": "general"
+  },
+  {
+    "id": "6",
+    "question": "What is the cancellation/refund policy?",
+    "answer": "Our cancellation policy varies by trip. Generally, cancellations made 7+ days before departure receive a full refund. Details are available on each trip page and our Cancellation Policy page.",
+    "category": "booking"
+  },
+  {
+    "id": "7",
+    "question": "What happens if weather affects a trip?",
+    "answer": "Safety comes first. If weather conditions make a trip unsafe, we'll reschedule or offer a full refund. We monitor conditions closely and communicate any changes well in advance.",
+    "category": "safety"
+  },
+  {
+    "id": "8",
+    "question": "What should I carry?",
+    "answer": "Each trip page includes a detailed 'What to Carry' section tailored to the specific experience. Generally, comfortable shoes, weather-appropriate clothing, water, sunscreen, and a sense of adventure!",
+    "category": "general"
+  },
+  {
+    "id": "9",
+    "question": "How can I contact support?",
+    "answer": "The fastest way is WhatsApp — tap the WhatsApp button on any page. You can also email us or use the contact form. Our team typically responds within a few hours during business hours.",
+    "category": "support"
+  },
+  {
+    "id": "10",
+    "question": "Can I request a custom/private trip?",
+    "answer": "Yes! Use our Custom Trip Planner to tell us your preferences — dates, region, group size, and budget. Our team will craft a personalised itinerary just for you within 48 hours.",
+    "category": "booking"
+  }
+]
