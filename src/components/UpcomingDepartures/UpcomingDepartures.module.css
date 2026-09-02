@@ -1,0 +1,229 @@
+.section {
+  padding: 6rem 0 7rem;
+  background: #0d281a;
+  position: relative;
+  overflow: hidden;
+}
+
+.waveTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.waveTop svg {
+  display: block;
+  width: 100%;
+  height: 45px;
+}
+
+.header {
+  text-align: center;
+  padding: 0 var(--space-6);
+  margin-bottom: 3.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.sectionLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-accent-light);
+  margin-bottom: 0.75rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  line-height: 1.15;
+}
+
+.sectionSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 580px;
+}
+
+.scrollContainer {
+  display: flex;
+  gap: 1.75rem;
+  padding: 1rem var(--space-6) 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(196, 151, 70, 0.4) transparent;
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+}
+
+.card {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+  background: #FFFFFF;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+.cardImageWrap {
+  position: relative;
+  height: 210px;
+  overflow: hidden;
+  background: #1a3828;
+}
+
+.cardImageWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .cardImageWrap img {
+  transform: scale(1.08);
+}
+
+.badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(18, 51, 34, 0.85);
+  backdrop-filter: blur(8px);
+  color: var(--color-white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badgeWomen {
+  background: rgba(190, 24, 93, 0.9);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.cardBody {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1.25rem;
+}
+
+.cardMetaRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.cardMetaRow svg {
+  color: var(--color-secondary);
+}
+
+.cardPriceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(18, 51, 34, 0.08);
+  margin-bottom: 1.2rem;
+}
+
+.price {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.priceUnit {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-left: 2px;
+}
+
+.originalPrice {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  text-decoration: line-through;
+  margin-left: 0.4rem;
+}
+
+.availability {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #065f46;
+  background: #d1fae5;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+.cardCta {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.cardCta:hover {
+  background: var(--color-accent-dark);
+}
+
+.viewAll {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 0 var(--space-6);
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 350px;
+  }
+}

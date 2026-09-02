@@ -15,7 +15,7 @@
     "tagline": "Beaches · Camping · Local Culture",
     "description": "Discover pristine Konkan beaches, secret coves, and vibrant coastal villages where the Arabian Sea meets ancient fishing traditions.",
     "tripCount": 8,
-    "image": "/images/destinations/coastal.jpg"
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop"
   },
   {
     "id": "hill-stations",
@@ -33,7 +33,7 @@
     "tagline": "History · Culture · Fort Trails",
     "description": "Walk the ramparts of Maratha strongholds perched on dramatic peaks, where every stone tells a story of courage, strategy, and empire.",
     "tripCount": 10,
-    "image": "/images/destinations/forts.jpg"
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=600&fit=crop"
   },
   {
     "id": "waterfalls-monsoon",
@@ -42,6 +42,6 @@
     "tagline": "Seasonal Nature · Adventure · Photography",
     "description": "Chase monsoon magic through thundering waterfalls, emerald valleys, and rain-washed trails that come alive only a few months each year.",
     "tripCount": 7,
-    "image": "/images/destinations/waterfalls.jpg"
+    "image": "https://images.unsplash.com/photo-1432405972618-c6b0cfba8673?w=800&h=600&fit=crop"
   }
 ]
